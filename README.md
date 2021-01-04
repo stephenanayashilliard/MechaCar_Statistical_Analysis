@@ -14,3 +14,11 @@ Using R, Dplyr and Ggplot2
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Is the slope of the linear model considered to be zero? Why or why not?
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+## Summary Statistics on Suspension Coils
+
+### Total Summary Chart
+![Total Summary](https://github.com/stephenanayashilliard/MechaCar_Statistical_Analysis/blob/main/Resources/Total%20Summary%20Chart.png)
+
+### Lot Summary Chart
+![Lot Summary](https://github.com/stephenanayashilliard/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary%20chart.png)
