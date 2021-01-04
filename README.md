@@ -40,3 +40,9 @@ Using R, Dplyr and Ggplot2
 ### T-Test Lot 3
 ![Lot 3](https://github.com/stephenanayashilliard/MechaCar_Statistical_Analysis/blob/main/Resources/T-test%20Lot3.png)
 
+### T-Test Summary of Findings
+
+- In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+- Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+
+
