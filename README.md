@@ -24,6 +24,7 @@ for each statistical analysis.
 ![Summary](https://github.com/stephenanayashilliard/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable_summary.png)
 
 ### Summary
+The MechaCar_mpg.csv dataset was used to perform this linear progression.  The dataset contains mpg tests for 50 prototype MechaCars. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.  A linear model was designed to predict the MPG of MechaCar prototypes using the aforementioned variables.
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Is the slope of the linear model considered to be zero? Why or why not?
