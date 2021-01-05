@@ -39,6 +39,13 @@ The MechaCar_mpg.csv dataset was used to perform this linear progression.  The d
 ![Lot Summary](https://github.com/stephenanayashilliard/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary%20chart.png)
 
 ### Summary
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple productions lots.  In this dataset, the weight capaciities of multiple suspension coils were tested to determine if the manufacturing process is consistance across production lots.  A summary statistics table was designed to show:
+- The supsensions coil's PSI continuous variable across all manufacturing lots.
+- The following PSI metrics for each lot:
+  - mean
+  - median
+  - variance
+  - standard deviation
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
