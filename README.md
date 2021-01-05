@@ -49,7 +49,8 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
   - median
   - variance
   - standard deviation
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually?
+ - Reviewing the summary statistics of all three manufacturing lots, a variance of 62.29356 for PSI is well within the specifications of 100 lbs PSI.  However, while manufacturing lots 1 and 2 are significantly well within design specifications, manufacturing lot 3's variance of 170.286 PSI is  far outside the design specifications of 100 lbs PSI.
 
 ## T-Tests on Suspension Coils
 
@@ -67,17 +68,26 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 ### T-Test Summary of Findings
 
-- In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
-- Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+- Using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+ - The p-value for all manufacturing lots was .06028 and above the significance level of 0.05 therefore the summary of all manufacturing lots are statistically similar.
+- Using the t.test() function and its subset() argument, determine if the PSI for each individual manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+ - Lot 1
+  - The p-value for manufacturing lot 1 was 1.0 and well above the significance level of 0.05, therefore the two means are statistically similar.
+ - Lot 2
+  - The p-value for manufacturing lot 2 was 0.6072 and above the significance level of 0.05, therefore the two means are statistically similar.
+ - Lot 3
+  - The p-value for manufacturing lot 3 was 0.04168 and is below the significance level of 0.05, therefore the two means are statistically not similar. 
 
 ## Study Design: MechaCar vs Competition
 
-This is a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
+Suggested statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 - What metric or metrics are you going to test?
 - What is the null hypothesis or alternative hypothesis?
 - What statistical test would you use to test the hypothesis? And why?
 - What data is needed to run the statistical test?
 
+Suggested statistical study that can quantify how the MechaCar cost ver safety rating performs against the competition.  The hypothesis is that there are significant differences in performance between MechCar and their competition.  To perform the study, data from both MechaCar and all competitive companies would needed for cost of vehicle and the  overall saftely rating as well as federal and state requirements for overall safety standards.
+
+To perform this analysis we would do a simple linear regression for each car company comparing the cost of their vehicles to their safetly rating. We would also do a t-test to find out if the mean safety rating for each company is equal to the mean federal overall safety standards.  After these findings we would use a chi-squared test to discover is there categorical frequencies between the different manufacturers.
 
 
