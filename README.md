@@ -2,7 +2,7 @@
 
 ## Overview
 The purpose of this analysis is to review the production data for insights that may help the manufacturing team.  To facilitate the analysis, the following tasks were applied:
-- Perform a multiple linear regression analysis to identify which variables in teh dataset predict the MPG of MechCar prototypes.
+- Perform a multiple linear regression analysis to identify which variables in the dataset predict the MPG of MechCar prototypes.
 - Collect summary statistics on the pounds per square inch (PSI) of the suspencion coils from the manufacturing lots.
 - Perform t-tests to determine if the manufacturing lots are statistically different from the mean population.
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.  Write a summary interpretation of the findings 
@@ -26,9 +26,12 @@ for each statistical analysis.
 ### Summary
 The MechaCar_mpg.csv dataset was used to perform this linear progression.  The dataset contains mpg tests for 50 prototype MechaCars. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance were collected for each vehicle.  A linear model was designed to predict the MPG of MechaCar prototypes using the aforementioned variables.
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- Is the slope of the linear model considered to be zero? Why or why not?
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- Which variables/coefficients provided a non-random amount of variance to the mpg values?
+ - Two variables, vehicle length and ground clearance showed a non-random amount of variance and therefore have a significant impact on MPG.  All other coefficients, vehicle weight, spoiler angle and drive train showed a random amount of variance.  It should be also noted that the intercept (or contant) was also statistically significant and shows that there are other variables and factors that impact the MPG.  These variables may or may not be contained within the dataset.
+- Is the slope of the linear model considered to be zero?
+  - The slope of the linear model is not zero since at least two of independent coefficients (vehicle length and ground clearance) had a significant impact on MPG.
+- Does this linear model predict mpg of MechaCar prototypes effectively? 
+  - The multiple R-Squared value of 0.7149 which means that the model will predict the MPG correctly at least 71% of the time. As noted earlier by our intercept which is statistically significant, there are other variables and factors that may or not be contained within the dataset that help to improve this models success at MPG prediction.
 
 ## Summary Statistics on Suspension Coils
 
