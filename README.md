@@ -90,4 +90,7 @@ Suggested statistical study that can quantify how the MechaCar cost ver safety r
 
 To perform this analysis we would do a simple linear regression for each car company comparing the cost of their vehicles to their safetly rating. We would also do a t-test to find out if the mean safety rating for each company is equal to the mean federal overall safety standards.  After these findings we would use a chi-squared test to discover is there categorical frequencies between the different manufacturers.
 
+## Contact Information
+Email: Stephenanayashilliard@gmail.com
 
+Linkedin: [Linkedin for Stephen Anayas-Hilliard](https://www.linkedin.com/in/stephen-anayas-hilliard-942a8431/)
