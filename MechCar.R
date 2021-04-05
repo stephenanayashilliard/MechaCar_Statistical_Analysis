@@ -29,7 +29,7 @@ lot_summary <- Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI)
 
 # Deliverable 3:  T-tests on Suspensions coils
 
-# T-test that compares all manufacturing lots against the mean PSI of the population (1498.78)
+# T-test that compares all manufacturing lots against the mean PSI of the population (1500)
 t.test(Coil$PSI, mu=1500)
 
 # T-test (Lot 1)
