@@ -81,10 +81,6 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 ## Study Design: MechaCar vs Competition
 
 Suggested statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
 
 Suggested statistical study that can quantify how the MechaCar cost ver safety rating performs against the competition.  The hypothesis is that there are significant differences in performance between MechCar and their competition.  To perform the study, data from both MechaCar and all competitive companies would needed for cost of vehicle and the  overall saftely rating as well as federal and state requirements for overall safety standards.
 
